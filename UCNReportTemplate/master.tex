@@ -13,16 +13,30 @@
 \pdfbookmark[0]{Contents}{label:contents}
 \pagestyle{fancy} %enable headers and footers again
 \tableofcontents
-\listoftodos
 \input{sections/preface.tex}
 \cleardoublepage
 %mainmatter
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
-\input{sections/introduction.tex}
-\input{sections/ch2name.tex}
+
+\input{sections/Chapter1/introduction.tex}
+    \input{sections/Chapter1/sections.tex}
+    \input{sections/Chapter1/example.tex}
+    \input{sections/Chapter1/bullets.tex}
+    \input{sections/Chapter1/tabular.tex}
+    \input{sections/Chapter1/pictures.tex}
+    \input{sections/Chapter1/listings.tex}
+
+\input{sections/Chapter2/ch2name.tex}
 \input{sections/conclusion.tex}
+
 \printbibliography[heading=bibintoc]
 \label{bib:mybiblio}
 \appendix
-\input{sections/appAname.tex}
+\input{Appendix/appAname.tex}
+
+\renewcommand\listoflistingscaption{List of source codes}
+\listoflistings
+
+\listoftodos
+
 \end{document}

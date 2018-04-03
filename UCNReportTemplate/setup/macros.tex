@@ -4,8 +4,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Macros for the titlepage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Creates the aau titlepage
-\newcommand{\aautitlepage}[3]{%
+%Creates the ucn titlepage
+\newcommand{\ucntitlepage}[3]{%
   {
     %set up various length
     \ifx\titlepageleftcolumnwidth\undefined
@@ -20,9 +20,9 @@
     \begin{tabular}{@{}ll@{}}
       \parbox{\titlepageleftcolumnwidth}{
         \iflanguage{danish}{%
-          \includegraphics[width=\titlepageleftcolumnwidth]{figures/aau_logo_da}
+          \includegraphics[width=\titlepageleftcolumnwidth]{figures/ucn_logo_da}
         }{%
-          \includegraphics[width=\titlepageleftcolumnwidth]{figures/aau_logo_en}
+          \includegraphics[width=\titlepageleftcolumnwidth]{figures/ucn_logo_en}
         }
       } &
       \parbox{\titlepagerightcolumnwidth}{\raggedleft\sf\small
