@@ -12,7 +12,7 @@ An easily customisable and structured [LaTeX](https://www.latex-project.org/) te
 
 This report template is an attempt to give these LaTeX novices a gentle start. The template takes care of loading the most common packages in the preamble, creating a front page, an English and a Danish UCN title page, a preface with signatures, and a simple folder structure for organising the tex-files.
 
-See [an example/the documentation](UCN-Latex-Templates/UCNReportTemplate/UCNReportTemplate.pdf).
+See [an example/the documentation](https://github.com/Adrast/UCN-Latex-Templates/blob/master/UCNReportTemplate/UCNReportTemplate.pdf).
 
 
 ## Credits
