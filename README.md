@@ -2,6 +2,7 @@
 <p float="left">
   <img src="img/UCN-hovedlogo.png" height="100"/>
 </p>
+> <sup>Unofficial and not affiliated with the University of Victoria</sup>
 
 An easily customisable and structured [LaTeX](https://www.latex-project.org/) template for [UCN](https://ucn.dk) reports, papers, and assignments.
 
