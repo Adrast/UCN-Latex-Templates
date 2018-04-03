@@ -5,7 +5,6 @@
 
 An easily customisable and structured [LaTeX](https://www.latex-project.org/) template for [UCN](https://ucn.dk) reports, papers, and assignments.
 
-On this page, I have collected various Latex-related templates which may be useful to you. The site contains three beamer templates, a report template, a Ph.D.-thesis template, and a poster template which are all described in more detail below. These are primarily intended for use by other people studying or working at Aalborg University (AAU), but everyone is encouraged to use the templates.
 
 ## The UCN Report Template
  Many students use LaTeX for typesetting their reports. Although LaTeX is very powerful and able to create beautiful documents, the learning curve for LaTeX novices may be quite steep. Especially the management of the layout may be hard.
