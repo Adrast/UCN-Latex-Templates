@@ -17,7 +17,7 @@ See [an example/the documentation](https://github.com/Adrast/UCN-Latex-Templates
 
 ## Credits
 
-All credit should go to [@jkjaer](https://github.com/jkjaer)'s original [aauReportTemplate](https://github.com/jkjaer/aauLatexTemplates) which I forked and modified predictably.
+All credit should go to [@jkjaer](https://github.com/jkjaer)'s original [aauReportTemplate](https://github.com/jkjaer/aauLatexTemplates) which I forked and modified.
 
 ## License
 
