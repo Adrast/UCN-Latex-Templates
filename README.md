@@ -15,6 +15,10 @@ This report template is an attempt to give these LaTeX novices a gentle start. T
 See [an example/the documentation](https://github.com/Adrast/UCN-Latex-Templates/blob/master/UCNReportTemplate/UCNReportTemplate.pdf).
 
 
+
+<img src="img/githubFrontPage.PNG" width="425"/> <img src="img/githubUCN.PNG" width="425"/> 
+
+
 ## Credits
 
 All credit should go to [@jkjaer](https://github.com/jkjaer)'s original [aauReportTemplate](https://github.com/jkjaer/aauLatexTemplates) which I forked and modified.
