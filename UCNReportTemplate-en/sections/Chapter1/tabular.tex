@@ -1,0 +1,37 @@
+\section{Tabular}
+\begin{table}[H]
+\centering
+
+\begin{tabular}{ll}
+%\hline
+{ \textbf{Pros}}   & { \textbf{Cons}} \\ \toprule
+Portability              & Slow                   \\ 
+Data Nesting             & Tuning                 \\ 
+Single language          & Complex Queries        \\ 
+Adding is like modifying & Studying               \\ \bottomrule
+\end{tabular}%
+
+\caption{Pros and cons Tabular}
+\label{pro-con}
+\end{table}
+
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{
+    \begin{tabular}{lp{4cm}ll}  \toprule
+        \textbf{\textbf{Binding Name as of class}} & \textbf{Transport}  & \textbf{Encoding} & \textbf{Interoperable} \\\toprule 
+        \rowcolor{black!20}BasicHttpBinding & HTTP/HTTPS & Text, MTOM & Yes \\
+        NetTcpBinding & TCP & Binary & No \\
+        \rowcolor{black!20}NetPeerBinding & P2P & Binary & no \\
+        NetNamedPipeBinding & IPC & Binary & No \\
+        \rowcolor{black!20}WSHttpBinding & HTTP/HTTPS & Text, MTOM & Yes \\
+        WSFederationHttpBinding & HTTP/HTTPS & Text, MTOM & Yes \\
+       \rowcolor{black!20} WSDualHttpBinding & HTTP & Text, MTOM & Yes \\
+       NetMsmqBinding & MSMQ & Binary & Yes \\
+        \rowcolor{black!20} MsmqlIntergrationBinding & MSMQ & Binary & Yes
+        \\ \bottomrule
+    \end{tabular}
+}
+\caption{Example of WCF Bindings}
+\label{tbl:wcf-bindings}
+\end{table}

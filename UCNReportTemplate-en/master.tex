@@ -1,0 +1,43 @@
+\input{setup/preamble.tex}% package inclusion and set up of the document
+\input{setup/hyphenations.tex}% 
+\input{setup/macros.tex}% my new macros
+
+\begin{document}
+%frontmatter
+\pagestyle{empty} %disable headers and footers
+\pagenumbering{roman} %use roman page numbering in the frontmatter
+\input{sections/formalities/frontpage.tex}
+\input{sections/formalities/colophon.tex}
+\input{sections/formalities/titlepages.tex}
+\cleardoublepage
+\pdfbookmark[0]{Contents}{label:contents}
+\pagestyle{fancy} %enable headers and footers again
+\tableofcontents
+\input{sections/formalities/preface.tex}
+\cleardoublepage
+%mainmatter
+\pagenumbering{arabic} %use arabic page numbering in the mainmatter
+
+\input{sections/Chapter1/introduction.tex}
+    \input{sections/Chapter1/sections.tex}
+    \input{sections/Chapter1/example.tex}
+    \input{sections/Chapter1/bullets.tex}
+    \input{sections/Chapter1/tabular.tex}
+    \input{sections/Chapter1/pictures.tex}
+    \input{sections/Chapter1/listings.tex}
+
+\input{sections/Chapter2/ch2name.tex}
+
+\input{sections/conclusion/conclusion.tex}
+
+\printbibliography[heading=bibintoc]
+\label{bib:mybiblio}
+\appendix
+\input{Appendix/appAname.tex}
+
+\renewcommand\listoflistingscaption{List of source codes}
+\listoflistings
+
+\listoftodos
+
+\end{document}

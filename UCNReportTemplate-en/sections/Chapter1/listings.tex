@@ -1,0 +1,20 @@
+\section{Listings}
+
+The next code will be directly imported from a file:
+
+%Importing code from file
+\begin{listing}[ht]
+
+\inputminted[
+firstline=4, 
+lastline=16,
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=LightGray,
+fontsize=\footnotesize,
+linenos
+]{python}{listings/script.py}
+\caption{Example from external file}
+\label{listing:3}
+\end{listing}
